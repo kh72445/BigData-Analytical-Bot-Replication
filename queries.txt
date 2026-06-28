@@ -1,0 +1,61 @@
+==============================================================================
+BIG DATA ANALYTICAL BOT - 30-QUERY BENCHMARK DATASET
+==============================================================================
+This file contains the standardized 30-query evaluation benchmark used to test 
+the autonomous semantic caching efficiency, response accuracy, and vector 
+similarity threshold performance of the framework.
+==============================================================================
+
+------------------------------------------------------------------------------
+CATEGORY 1: General Dataset Metadata (C1)
+------------------------------------------------------------------------------
+Q01: Show the full schema architecture for the core data registry.
+Q02: List all primary data tables and their foreign key constraints.
+Q03: What are the data type definitions for the enterprise logging table?
+Q04: Provide the total row count and storage size of the historical archive.
+Q05: Display the metadata description for the indexing architecture.
+Q06: Identify all partition keys used in the analytical database layer.
+
+------------------------------------------------------------------------------
+CATEGORY 2: Indexing and Partitioning Optimization (C2)
+------------------------------------------------------------------------------
+Q07: Explain the partition pruning strategy used for streaming records.
+Q08: How can we optimize the current high-dimensional vector search index?
+Q09: Show the execution plan for queries filtering by date partition.
+Q10: What is the current clustering key setup for enterprise log storage?
+Q11: Provide indexing recommendations for reducing linear search overhead.
+Q12: Retrieve the fragmentation percentage of the secondary metadata tables.
+
+------------------------------------------------------------------------------
+CATEGORY 3: Performance Monitoring and Auditing (C3)
+------------------------------------------------------------------------------
+Q13: Identify anomalous latency spikes in the simulated concurrent workload.
+Q14: Analyze the database performance under peak concurrent traffic.
+Q15: Show the system log errors triggered during the 100 RPS stress test.
+Q16: What is the resource consumption rate of the vector similarity engine?
+Q17: List the top five slowest executing analytical queries in the past hour.
+Q18: Provide the audit trail for unauthorized modifications in the cache.
+
+------------------------------------------------------------------------------
+CATEGORY 4: Streaming and Ingestion Pipelines (C4)
+------------------------------------------------------------------------------
+Q19: Check the current ingestion throughput of the real-time data stream.
+Q20: Are there any critical synchronization gaps in the primary streaming pipe?
+Q21: Show the buffer utilization metrics for Kafka enterprise logs.
+Q22: What causes the replication delay between the cloud and local cache?
+Q23: List all active consumers connected to the streaming database interface.
+Q24: Provide the failure rate of incoming data packages during ingestion.
+
+------------------------------------------------------------------------------
+CATEGORY 5: Complex Analytical Dialogues and Semantic Drift (C5)
+------------------------------------------------------------------------------
+Q25: Generate a comparative analysis report on storage cost vs query latency.
+Q26: Evaluate the overall accuracy of the autonomous semantic cache tier.
+Q27: Summarize the major architectural limitations under high data volatility.
+Q28: Predict the scaling limits of the vector space search registry.
+Q29: How does changing the similarity threshold parameter affect hit rates?
+Q30: Provide recommendations for mitigating the stale cache risk under heavy traffic.
+
+==============================================================================
+END OF BENCHMARK DATASET
+==============================================================================
